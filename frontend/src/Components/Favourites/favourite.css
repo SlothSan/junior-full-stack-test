@@ -1,0 +1,15 @@
+.favourites-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.favourite {
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    width: fit-content;
+    min-width: 100px;
+    border-radius: 10px;
+}

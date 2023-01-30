@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 4vmin;
+    pointer-events: none;
+    margin-left: 20px;
+}
+
+.App-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    height: 3vmin;
+}
+
+.header-left-container,
+.header-right-container {
+    display: flex;
+    align-items: center;
+}
+
+.home-link {
+    display: flex;
+    justify-content: center;
+    min-width: 100px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: all 0.2s;
+}
+
+.home-link:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    transition: all 0.2s;
+}
+

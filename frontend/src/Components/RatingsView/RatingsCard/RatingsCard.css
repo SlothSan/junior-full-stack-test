@@ -1,0 +1,30 @@
+.rating-card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.rating-card-breed,
+.rating-card-hero {
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.rating-card-hero {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.rating-card-rating {
+    margin-top: 20px;
+}
+
+.rating-info {
+    margin: 5px 0;
+}
